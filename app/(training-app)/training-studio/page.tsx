@@ -46,7 +46,7 @@ export default async function TrainingStudio() {
   const {serialisedSessions} = await getSessions()
 
   return (
-    <div className="flex h-[70vh]">
+    <div className="flex">
       <Calendar sessions={serialisedSessions} />
     </div>
   )
