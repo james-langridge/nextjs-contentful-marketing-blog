@@ -3,7 +3,7 @@
 import React, {useState} from 'react'
 import {submitContactForm} from '@/lib/api'
 import Info from '@/components/Info'
-import {useStatus} from '@/hooks'
+import {useStatus} from '@/hooks/useStatus'
 
 const initialForm = {
   name: '',
