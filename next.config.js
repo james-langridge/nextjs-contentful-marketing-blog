@@ -2,8 +2,6 @@
 const nextConfig = {
   experimental: {
     appDir: true,
-    // TODO: does prisma need to go here?
-    serverComponentsExternalPackages: ['bcrypt'],
   },
   images: {
     remotePatterns: [
