@@ -39,7 +39,7 @@ export function useUserSessions(isAdmin: boolean): UseUserSessionsReturnType {
       }
 
       void refreshUserWithSessions()
-    }, 60000)
+    }, 5000)
 
     return () => {
       clearInterval(interval)
