@@ -40,7 +40,14 @@ The site also includes a blog page and a contact form page.
     cp .env.example .env.local
     ```
 
-6. Start the development server:
+4. Import the content types into your Contentful space with the [Contentful CLI](https://www.contentful.com/developers/docs/tutorials/cli/import-and-export/). This only imports the content types that correspond with the React components.  You will have to create pages and add content and assets in Contentful.
+    ```sh
+    npm install -g contentful-cli
+    contenful login
+    contentful space import --content-file ./lib/export.json
+    ```
+
+5. Start the development server:
     ```sh
     npm run dev
     ```
