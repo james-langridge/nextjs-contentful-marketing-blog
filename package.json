@@ -1,13 +1,13 @@
 {
   "name": "nextjs-contentful-marketing-blog",
   "author": "James Langridge <l@ngridge.com> (https://github.com/james-langridge)",
-  "description": "Marketing blog website made with Next.js 13 (beta) and React 18, with Contentful (CMS) integration.",
+  "description": "A statically generated marketing & blog site made with Next.js 13 (beta) and Contentful.",
   "repository": {
     "type": "git",
     "url": "https://github.com/james-langridge/nextjs-contentful-marketing-blog.git"
   },
   "bugs": "https://github.com/james-langridge/nextjs-contentful-marketing-blog/issues",
-  "license": "WTFPL",
+  "license": "MIT",
   "version": "0.1.0",
   "private": true,
   "scripts": {
