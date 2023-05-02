@@ -1,6 +1,7 @@
 import {Entry} from 'contentful'
-import {IImageFields} from '@/@types/generated/contentful'
 import Image from 'next/image'
+
+import {IImageFields} from '@/@types/generated/contentful'
 
 interface Props {
   entry: Entry<IImageFields>

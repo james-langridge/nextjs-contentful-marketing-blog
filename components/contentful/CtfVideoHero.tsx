@@ -1,10 +1,12 @@
-import Link from 'next/link'
+import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
 import {Entry} from 'contentful'
+import Link from 'next/link'
+
 import {
   IVideoHeroFeatureFields,
   IVideoHeroProgramCard,
 } from '@/@types/generated/contentful'
-import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
+
 
 interface VideoCardProps {
   program: IVideoHeroProgramCard

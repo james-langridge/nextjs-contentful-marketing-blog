@@ -1,6 +1,7 @@
 import {Entry} from 'contentful'
-import {IProgramAdBannerFields} from '@/@types/generated/contentful'
 import React from 'react'
+
+import {IProgramAdBannerFields} from '@/@types/generated/contentful'
 
 interface Props {
   children: React.ReactNode

@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
-import {getByContentTypeId} from '@/lib/contentful'
+
 import {FACEBOOK_URL, GITHUB_URL} from '@/lib/constants'
+import {getByContentTypeId} from '@/lib/contentful'
 
 export default async function CtfFooter() {
   const {items} = await getByContentTypeId('footer', {

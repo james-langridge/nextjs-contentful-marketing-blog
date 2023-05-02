@@ -1,6 +1,7 @@
-import {Entry} from 'contentful'
-import {IRichTextFields} from '@/@types/generated/contentful'
 import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
+import {Entry} from 'contentful'
+
+import {IRichTextFields} from '@/@types/generated/contentful'
 
 interface Props {
   entry: Entry<IRichTextFields>

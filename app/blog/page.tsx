@@ -1,9 +1,10 @@
 import {Entry} from 'contentful'
 import Image from 'next/image'
 import Link from 'next/link'
-import {getByContentTypeId} from '@/lib/contentful'
+
 import {IImageFields} from '@/@types/generated/contentful'
 import {RANDOM_IMG_URL} from '@/lib/constants'
+import {getByContentTypeId} from '@/lib/contentful'
 
 interface Props {
   image: Entry<IImageFields>

@@ -1,4 +1,6 @@
 import React from 'react'
+
+import {IEntry} from '@/@types/generated/contentful'
 import {
   CtfImage,
   CtfContactPage,
@@ -13,7 +15,6 @@ import {
   CtfProgramAd,
   CtfProgramAdBanner,
 } from '@/components/contentful/index'
-import {IEntry} from '@/@types/generated/contentful'
 
 const componentMap: {[key: string]: React.ComponentType<any>} = {
   contact: CtfContactPage,

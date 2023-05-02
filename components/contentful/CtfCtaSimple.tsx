@@ -1,7 +1,8 @@
-import {Entry} from 'contentful'
-import {ICtaSimpleFields} from '@/@types/generated/contentful'
-import Link from 'next/link'
 import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
+import {Entry} from 'contentful'
+import Link from 'next/link'
+
+import {ICtaSimpleFields} from '@/@types/generated/contentful'
 
 interface Props {
   entry: Entry<ICtaSimpleFields>

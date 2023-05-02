@@ -1,6 +1,7 @@
+import {Entry} from 'contentful'
 import Image from 'next/image'
 import Link from 'next/link'
-import {Entry} from 'contentful'
+
 import {IContactFields} from '@/@types/generated/contentful'
 import ContactForm from '@/components/ContactForm'
 

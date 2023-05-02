@@ -1,7 +1,8 @@
 import '../styles/globals.css'
 import React from 'react'
-import CtfNavbar from '@/components/contentful/CtfNavbar'
+
 import CtfFooter from '@/components/contentful/CtfFooter'
+import CtfNavbar from '@/components/contentful/CtfNavbar'
 
 export const metadata = {
   title: 'Fit For Life Trainer',
