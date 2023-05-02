@@ -1,4 +1,5 @@
 import {Entry} from 'contentful'
+
 import {ICtaFormFields} from '@/@types/generated/contentful'
 
 interface Props {

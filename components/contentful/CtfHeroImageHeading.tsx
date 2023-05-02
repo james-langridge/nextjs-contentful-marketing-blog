@@ -1,6 +1,7 @@
-import Image from 'next/image'
-import {IHeroImageHeadingFields} from '@/@types/generated/contentful'
 import {Entry} from 'contentful'
+import Image from 'next/image'
+
+import {IHeroImageHeadingFields} from '@/@types/generated/contentful'
 
 interface Props {
   entry: Entry<IHeroImageHeadingFields>

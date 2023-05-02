@@ -1,5 +1,5 @@
-import {getByContentTypeId} from '@/lib/contentful'
 import {CtfComponentRenderer} from '@/components/contentful/CtfComponentRenderer'
+import {getByContentTypeId} from '@/lib/contentful'
 
 export default async function Home() {
   const {items} = await getByContentTypeId('page', {

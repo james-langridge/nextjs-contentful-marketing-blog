@@ -1,6 +1,7 @@
 import {Entry} from 'contentful'
-import {IHeroBackgroundImageFields} from '@/@types/generated/contentful'
 import Link from 'next/link'
+
+import {IHeroBackgroundImageFields} from '@/@types/generated/contentful'
 
 interface Props {
   entry: Entry<IHeroBackgroundImageFields>

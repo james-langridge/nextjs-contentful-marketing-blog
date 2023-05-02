@@ -1,6 +1,7 @@
+import {notFound} from 'next/navigation'
+
 import {CtfComponentRenderer} from '@/components/contentful/CtfComponentRenderer'
 import {getByContentTypeId} from '@/lib/contentful'
-import {notFound} from 'next/navigation'
 
 // Using the Contentful SDK instead of the Fetch API, for dynamic segments,
 // the output of the request will not be cached and will be re-fetched on

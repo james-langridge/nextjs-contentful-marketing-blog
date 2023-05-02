@@ -1,9 +1,10 @@
 'use client'
 
 import React, {useState} from 'react'
-import {submitContactForm} from '@/lib/api'
+
 import Info from '@/components/Info'
 import {useStatus} from '@/hooks/useStatus'
+import {submitContactForm} from '@/lib/api'
 
 const initialForm = {
   name: '',

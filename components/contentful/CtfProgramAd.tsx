@@ -1,7 +1,9 @@
-import Image from 'next/image'
-import {Entry} from 'contentful'
-import {IProgramAdFields} from '@/@types/generated/contentful'
 import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
+import {Entry} from 'contentful'
+import Image from 'next/image'
+
+import {IProgramAdFields} from '@/@types/generated/contentful'
+
 
 interface Props {
   entry: Entry<IProgramAdFields>
